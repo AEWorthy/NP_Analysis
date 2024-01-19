@@ -5,6 +5,7 @@ from datetime import datetime
 import threading
 import time
 
+###Changes to make: don't do multiple recordings (keep sync = 1), but loop within one recording block.
 
 settings = {
     'task_name' : 'acquireRecField',
